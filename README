@@ -1,1 +1,14 @@
+messing around with chrome extension dev
 simple chrome extension, grabs the ASIN of an Amazon Product
+
+to install
+
+1. Tools => Extensions
+2. Load Unpacked Extension
+3. Navigate to ASIN-Grabber folder, click select
+
+usage
+
+go to a product page on amazon.com, e.g. http://www.amazon.com/dp/B000001ESV/
+ctrl-click or right click, select "Grab ASIN"
+
