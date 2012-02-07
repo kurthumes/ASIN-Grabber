@@ -1,0 +1,16 @@
+{
+  "name": "ASIN Grabber",
+  "version": "0.1",
+  "description": "Grab Amazon.com ASIN",
+  "background_page": "background.html",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {"matches": ["http://www.amazon.com/*", "https://www.amazon.com/*"],
+     "js": ["jquery-1.7.1.min.js"]}
+  ]
+}
